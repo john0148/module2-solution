@@ -1,0 +1,86 @@
+*{
+	font-family: cursive;
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	text-align: center;
+	font-size: 36px;
+	margin-top: 30px;
+}
+
+section{
+	background-color: white;
+	position: relative;
+	margin-top: 30px;
+}
+
+p{
+	border: 1px solid black;
+	margin: 20px;
+	padding: 50px 25px 25px 25px;
+	background-color: gray;
+	text-align: left;
+}
+
+.my_title{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 3px;
+	width: 200px;
+}
+
+.title_1{
+	background-color: #FF99CC;
+	color: black;
+}
+
+.title_2{
+	background-color: red;
+	color: white;
+}
+
+.title_3{
+	background-color: #FFCC99;
+	color: black;
+}
+@media (min-width: 992px) {
+ .col-lg-4{
+    float: left;
+    width: 33.33%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-6 {
+    float: left;
+  }
+
+  .col-md-1{
+  	margin-top: 0;
+  	width: 100%;
+  }
+
+  .col-md-6{
+  	width: 50%;
+  }
+}
+
+@media (max-width: 767px){
+	.col-sl-1{
+		float: left;
+		width: 93%;
+		margin-left: 5%;
+	}
+
+	.my-margin{
+		margin-top: 0;
+	}
+}
